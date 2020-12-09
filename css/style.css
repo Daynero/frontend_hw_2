@@ -10,6 +10,7 @@ body {
   color: var(--primary-text-color);
 }
 
+/* Логотип */
 .nav.logo > span {
   color: var(--blue-color);
 }
@@ -18,7 +19,7 @@ body {
   text-decoration: none;
   color: var(--black-color);
 }
-
+/* Строка навигации по сайту */
 .nav {
   color: var(--secondary-text-color);
 }
@@ -26,4 +27,68 @@ body {
 .nav.link {
   text-decoration: none;
   color: var(--secondary-text-color);
+}
+
+.nav.link:hover,
+.nav.link:focus {
+  color: var(--blue-color);
+}
+
+.list {
+  list-style: none;
+}
+/* Телефон и эмэйл */
+.contact {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--blue-color);
+}
+
+/* Cекция ГЕРОЙ */
+.main.h1 {
+  color: var(--white-color);
+  background-color: #2f303a;
+}
+
+.main.button {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+/* Секция наши преимущества */
+/* .main.h2 {
+  /* Здесь когда то скроется заголовок */
+
+.main.h3 {
+  color: var(--secondary-text-color);
+}
+
+/* Секция чем мы занимаемся */
+.examples.h2 {
+  color: var(--secondary-text-color);
+}
+/* Секция наша команда */
+.our-team.h2 {
+  color: var(--secondary-text-color);
+}
+.name {
+  color: var(--secondary-text-color);
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer.logo {
+  text-decoration: none;
+  color: var(--white-color);
+}
+.footer.logo > span {
+  color: var(--blue-color);
+}
+.footer.adress {
+  color: var(--white-color);
 }
