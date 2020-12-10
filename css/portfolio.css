@@ -1,0 +1,78 @@
+:root {
+  --primary-text-color: #757575;
+  --secondary-text-color: #212121;
+  --blue-color: #2196f3;
+  --black-color: #000000;
+  --white-color: #ffffff;
+  --button-color: #f5f4fa;
+}
+
+body {
+  color: var(--primary-text-color);
+}
+
+/* Логотип */
+.nav.logo > span {
+  color: var(--blue-color);
+}
+
+.nav.logo {
+  text-decoration: none;
+  color: var(--black-color);
+}
+/* Строка навигации по сайту */
+.nav {
+  color: var(--secondary-text-color);
+}
+
+.nav.link {
+  text-decoration: none;
+  color: var(--secondary-text-color);
+}
+
+.nav.link:hover,
+.nav.link:focus {
+  color: var(--blue-color);
+}
+
+.list {
+  list-style: none;
+}
+/* Телефон и эмэйл */
+.contact {
+  text-decoration: none;
+  color: var(--primary-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--blue-color);
+}
+/* Cекция main */
+.main.button {
+  color: var(--secondary-text-color);
+  background-color: var(--button-color);
+}
+.main.button:hover,
+.main.button:focus {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  cursor: pointer;
+}
+.main.h2 {
+  color: var(--secondary-text-color);
+}
+/* Footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer.logo {
+  text-decoration: none;
+  color: var(--white-color);
+}
+.footer.logo > span {
+  color: var(--blue-color);
+}
+.footer.adress {
+  color: var(--white-color);
+}
