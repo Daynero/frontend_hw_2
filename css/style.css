@@ -1,60 +1,26 @@
-:root {
-  --primary-text-color: #757575;
-  --secondary-text-color: #212121;
-  --blue-color: #2196f3;
-  --black-color: #000000;
-  --white-color: #ffffff;
-}
-
-body {
-  color: var(--primary-text-color);
-}
-
-/* Логотип */
-.nav.logo > span {
-  color: var(--blue-color);
-}
-
-.nav.logo {
-  text-decoration: none;
-  color: var(--black-color);
-}
-/* Строка навигации по сайту */
-.nav {
-  color: var(--secondary-text-color);
-}
-
-.nav.link {
-  text-decoration: none;
-  color: var(--secondary-text-color);
-}
-
-.nav.link:hover,
-.nav.link:focus {
-  color: var(--blue-color);
-}
-
-.list {
-  list-style: none;
-}
-/* Телефон и эмэйл */
-.contact {
-  text-decoration: none;
-  color: var(--primary-text-color);
-}
-
-.contact:hover,
-.contact:focus {
-  color: var(--blue-color);
-}
-
 /* Cекция ГЕРОЙ */
 .main.h1 {
   color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
   background-color: #2f303a;
 }
 
 .main.button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
   color: var(--white-color);
   background-color: var(--blue-color);
 }
@@ -64,31 +30,55 @@ body {
   /* Здесь когда то скроется заголовок */
 
 .main.h3 {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: var(--secondary-text-color);
+}
+
+.main.h3 > span {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+
+  letter-spacing: 0.03em;
 }
 
 /* Секция чем мы занимаемся */
 .examples.h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 /* Секция наша команда */
 .our-team.h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
-/* Footer */
-.footer {
-  background-color: #2f303a;
-}
-.footer.logo {
-  text-decoration: none;
-  color: var(--white-color);
-}
-.footer.logo > span {
-  color: var(--blue-color);
-}
-.footer.adress {
-  color: var(--white-color);
+.name .about {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.03em;
 }
